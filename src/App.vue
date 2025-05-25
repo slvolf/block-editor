@@ -17,6 +17,15 @@ export default defineComponent({
 </script>
 
 <style scoped lang="scss">
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
 .app-container {
   width: 100%;
   height: 100vh;
